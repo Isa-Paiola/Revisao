@@ -1,11 +1,11 @@
 .login{
-    background-color: #304e0d79;
+    background-color: #304e0d64;
 }
 label {
     display: block;
     margin-bottom: 5px;
     color: var(--secondary-color);
-    margin-left: 150%;
+    margin-left: 430px;
 }
 
 input[type="text"],
@@ -20,11 +20,11 @@ select {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-    margin-left: 145%;
+    margin-left: 420px;
 }
 
 button {
-    background-color: #DBF1D4;
+    background-color: #4562236d;
     color: #000000;
     padding: 10px 20px;
     border: none;
@@ -32,20 +32,21 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-    margin-left: 190%;
+    margin-left: 420px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 button:hover {
-    background-color: #CFF0EE;
+    background-color: #c0ecb4;
 }
 
 h2{
-    background-color: #DBF1D4;
+    background-color: #4562236d;
     color: #000000;
     padding: 10px;
-    width: 3500px;
+    width: 350px;
     border-radius: 7%;
     align-items: center;
     text-align: center;
-    margin-left: 150%;
+    margin-left: 440px;
 }
