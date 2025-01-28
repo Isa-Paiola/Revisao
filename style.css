@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #304e0d79;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    height: 150px; /* Altura fixa do banner */
+	background-image: url(assets/tartaruga-imagem\ de\ cima.jpg); /* Imagem de fundo */
+	background-position: center; /* Centraliza a imagem */
+	background-size: cover; /* Cobre todo o banner */
+    margin-top: -20px;
+    
+}
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.lateral {
+    background-color: #DBF1D4;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 80px;
+    height: 180px;
+}
+
+
+button {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: #b3b5b770;
+    margin-left: -46px;
+}
+
+
+.principal {
+    width: 95%;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    color: #070707;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner h2 {
+    font-size: 1.5rem;
+    margin-left: 24px;
+    color: #000000;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    background: #E4E1DD;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.post img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
