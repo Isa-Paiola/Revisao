@@ -1,21 +1,27 @@
 <?php
 session_start();
-include('conexao.php');
+include('conexao.php');  
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $nome = $_POST['nome'];
-    $email = md5($_POST['email']);
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nome = $_POST['nome'];  
+    $senha = $_POST['email'];  
 
-    $sql = "SELECT * FROM usuarios WHERE usuario = '$nome' AND senha='$email'";
+
+    $sql = "SELECT * FROM usuarios WHERE nome = '$nome' AND senha = '$senha'";
     $result = $conn->query($sql);
 
-    if ($result->num_rows > 0){
-        $_SESSION['usuario'] = $usuario;
+    if ($result->num_rows > 0) {
+
+        $_SESSION['usuario'] = $nome;
         header('Location: ferias.html');
-    }else{
-        $error = "Usuario ou senha invalidos.";
+        exit();
+    } else {
+
+        $error = "Usuário ou senha inválidos.";
     }
 }
+
+$conn->close();
 ?>
 
 <!DOCTYPE html>

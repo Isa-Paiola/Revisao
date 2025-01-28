@@ -11,7 +11,7 @@ body {
 	background-image: url(assets/tartaruga-imagem\ de\ cima.jpg); /* Imagem de fundo */
 	background-position: center; /* Centraliza a imagem */
 	background-size: cover; /* Cobre todo o banner */
-    margin-top: -20px;
+    margin-top: 20px;
     
 }
 .container {
